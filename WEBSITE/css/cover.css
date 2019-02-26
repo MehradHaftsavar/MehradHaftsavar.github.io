@@ -1,0 +1,218 @@
+html, body {
+
+  
+  margin: 0;
+  padding: 0;
+  }
+
+  head, body{
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+
+
+  .row{
+  height: 75px;
+}
+
+
+
+
+
+
+.jumbotron ul {
+  font-size:14px;
+ padding-top: 25px;
+  text-align: right;
+  margin-bottom: 30px;
+  list-style: none;
+      display: flex;
+    justify-content: flex-end;
+    
+}
+     
+  
+
+ .jumbotron li {
+  
+  display:inline;
+  text-transform:uppercase;
+
+  
+  
+
+}
+
+.jumbotron a {
+  color:white;
+  text-decoration: none;
+  margin: 5px 20px;
+}
+
+   
+  .jumbotron{
+    background-image: url("../img/1.jpg");
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+    
+  }
+
+  .row h1{
+    font-size: 28px;
+    }
+
+.active{
+     
+     
+     padding-bottom:1px;
+}
+.jumbotron li a:hover {
+text-decoration:none;
+color: #ccff99;
+}
+
+
+
+
+
+#yek{
+  text-align: center;
+  padding-top: 180px;
+
+  color: white;
+  
+  font-family: 'Abril Fatface', cursive;
+}
+ 
+.jumbotron h2{
+  margin-left: 470px;
+
+  color: white;
+  
+  font-family: 'Abril Fatface', cursive;
+  
+}
+
+ .supporting{
+  height: 270px;
+  background-color: white;
+  
+}
+
+#se{
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+}
+
+
+ .btn{
+      border: outset 2px #ffcc00;
+      border-radius: 20px;
+      padding: 5px 80px;
+    }
+
+    
+
+     .col-md-4{
+      text-align: center;
+    }
+
+    
+
+.supporting a{
+      color: black;
+    }
+
+
+.parttwo{
+  
+  background-image: url("../img/6.jpg");
+  background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+#myBtn {
+  
+    display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 7px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  /*margin-top: 340px;
+  background-color: red; 
+  border: none;
+  color: white; 
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; */
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+    .footer{
+      background-color: black;
+      
+      color:white;
+      
+    }
+
+    .footer a{
+      color: white;
+    }
+
+    .footer a:hover{
+     text-decoration: none;
+     color: blue;
+    }
+
+
+#char{
+  padding-top: 25px;
+}
+
+@media (max-width: 770px){
+  .container{
+  max-width: 500px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+
+    font-size: 12px;
+  }
+   p{
+    font-size:9px;
+  }
+#myBtn{
+
+ }
+}
+
+    

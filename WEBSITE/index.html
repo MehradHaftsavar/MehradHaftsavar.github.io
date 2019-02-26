@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mehrad Haftsavar</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/cover.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/script.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: black;
+  margin-top: 55px;
+  color: white;
+  cursor: pointer;
+  padding: 16px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding:0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.content p{
+  margin: 7px 15px 10px;
+}
+</style>
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1><a href="#"></a></h1>
+        </div>
+        <div class="col-md-4">
+          <ul>
+            <li> <a class="active" href="#">Home</a></li>
+            <li> <a href="#se">About ME</a></li>
+            <li> <a href="#char">Contact</a></li>
+            
+          </ul>
+        </div>
+      </div>
+        <h1 id="yek"> I'm Mehrad </h1>
+        <h2>A web developer</h2>
+    </div>
+  </div>
+
+    <div class="supporting">
+      <div class="container">
+        <h1 id="se">Hello</h1>
+        <h3 id="se"> I am a web developer stuyding at City University London.</h3>
+        <h3 id="se"> Looking for internships or part-time developer jobs.</h3>
+        <h3 id="se"> I hope you have enjoyed my website so far.</h3>
+      </div>
+    </div>
+
+    <div class="parttwo">
+      <div class="container">
+         <button class="collapsible">More about my education</button>
+           <div class="content">
+             <p>I have studied computer science since my foundation year and have over 3 years of coding experience. Now, I am a second year computer science student in City University London. Majority of our modules are about software developing and engineering which I hope I can have a career in. In this 3 years of studying, I learnt how to code and use Java, C++, Visual Basics, HTML, CSS, SQL and a littile bit of Javascript which I intend to improve.</p>
+           </div> 
+           <button class="collapsible">What I am aiming for</button>
+           <div class="content">
+             <p>Learning web development has been very enjoyable for me and I want fully learn how to be a full stack developer. In that case I can code in backend as well so I can use my knowledge of Java and SQL. In addition, I very much like to code for applications and any challenging algorithms. Hopefully, further in my career, I can have roles related to cyber security.</p>
+           </div> 
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+         
+
+
+      </div>
+    </div>
+
+    
+    <div class="footer">
+      <div class="container">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+        <div class="row">
+          <div class="col-md-8">
+            <p id="char">Email me at <a href="mailto:mehrad0938@gmail.com">mehrad0938@gmail.com</a></p>
+          </div>
+          <div class="col-md-4">
+           
+            <p id="char">Call me at <a href="tel:15628675309">07756347532</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
